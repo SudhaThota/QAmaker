@@ -5,7 +5,7 @@ Question: How do I enable PHP logging
 ---
 
 #How can I enable PHP logging to troubleshoot PHP issues?
-1. Log into KUDU website at https://<yourwebsitename>.scm.azurewebsites.net
+1. Log into KUDU website at https://`<yourwebsitename>`.scm.azurewebsites.net
 2. In the top menu select Debug Console | CMD
 3. Click on Site folder
 4. Click on wwwroot folder
