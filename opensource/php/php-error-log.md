@@ -4,8 +4,7 @@ Keywords: log;logging;debug;troubleshoot;trouble shoot;error;diagnose
 Question: How do I enable PHP logging
 ---
 
-How can I enable PHP logging to troubleshoot PHP issues?
-
+#How can I enable PHP logging to troubleshoot PHP issues?
 1. Log into KUDU website at https://<yourwebsitename>.scm.azurewebsites.net
 2. In the top menu select Debug Console | CMD
 3. Click on Site folder
@@ -23,6 +22,7 @@ How can I enable PHP logging to troubleshoot PHP issues?
 //Supress errors and warnings to screendefine('WP_DEBUG_DISPLAY', false);
 //Supress PHP errors to screenini_set('display_errors', 0);
 ```
+
 12. Restart your web app from the web app menu in Azure Portal.
 
-For more details please click here
+For more details please click [here](https://blogs.msdn.microsoft.com/azureossds/2015/10/09/logging-php-errors-in-wordpress-2/)
